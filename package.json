@@ -1,0 +1,33 @@
+{
+  "name": "react-hoc-factory",
+  "version": "0.1.0",
+  "main": "lib/react-hoc-factory.cjs.js",
+  "module": "lib/react-hoc-factory.esm.js",
+  "browser": "lib/react-hoc-factory.umd.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "babel-core": "7.0.0-bridge.0",
+    "concurrently": "^4.1.0",
+    "rollup": "1.7.0",
+    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-commonjs": "9.2.1",
+    "rollup-plugin-node-resolve": "4.0.1"
+  },
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}

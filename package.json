@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/arojunior/react-hoc-factory.git"
   },
   "devDependencies": {
     "@babel/core": "7.4.0",

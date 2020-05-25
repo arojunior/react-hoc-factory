@@ -1,8 +1,11 @@
 import React from 'react';
 
-export const mapProps = propsMapper => BaseComponent => {
+const mapProps = propsMapper => BaseComponent => {
   const factory = React.createFactory(BaseComponent);
   const hoc = props => factory(propsMapper(props));
+  const hocNext = hoc(); 
+  const hasOwner = hocNext._owner;
+  if (hasOwner) return hocNext;  
   return hoc;
 };
 

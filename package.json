@@ -1,6 +1,6 @@
 {
   "name": "react-hoc-factory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/react-hoc-factory.cjs.js",
   "module": "lib/react-hoc-factory.esm.js",
   "browser": "lib/react-hoc-factory.umd.js",
